@@ -99,7 +99,7 @@ h4,
 h5,
 h6 {
   letter-spacing: 1px;
-  font-family: 'bebas_neuebold', 'Montserrat', sans-serif;
+  font-family: 'bebas_neuebold', "Bebas Neue", 'Montserrat', sans-serif;
 }
 h1,
 .h1 {
@@ -4299,7 +4299,11 @@ footer.dark p {
     display: none;
   }
   #topnav .logo .logo-dark {
-    display: block;
+    display: inline-block;
+  }
+  #topnav .logo h1 {
+    color: black;
+    font-size: 14px;
   }
   #navigation {
     position: absolute;
