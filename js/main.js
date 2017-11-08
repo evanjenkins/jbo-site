@@ -1,9 +1,8 @@
 (function($){
 
   'use strict';
-
-  SmoothScroll({ stepSize: 20 });
-
+  
+  var scroll = new SmoothScroll('a[href*="#"]');
   function initNavbar () {
     if (!$('section:first').is('.parallax, #home, .splash')) {
       $('#topnav').addClass('scroll');
