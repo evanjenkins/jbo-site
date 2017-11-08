@@ -1,7 +1,7 @@
 (function($){
 
   'use strict';
-  
+
   var scroll = new SmoothScroll('a[href*="#"]');
   function initNavbar () {
     if (!$('section:first').is('.parallax, #home, .splash')) {
