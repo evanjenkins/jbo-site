@@ -3,6 +3,9 @@
   'use strict';
 
   var scroll = new SmoothScroll('a[href*="#"]');
+  $('a[data-scroll]').on('click', function(){
+    $('.navbar-toggle').click();
+  });
   function initNavbar () {
     if (!$('section:first').is('.parallax, #home, .splash')) {
       $('#topnav').addClass('scroll');
